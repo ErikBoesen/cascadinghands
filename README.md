@@ -1,5 +1,5 @@
 # [CascadingHands](https://erikboesen.com/cascadinghands)
-> A simple website for generating those 👉🏿👉🏾👉🏽👉🏼👇🏻👇🏻👇🏻👈🏼👈🏽👈🏾👈🏿 squares fr
+> A simple website for generating those 👉🏿👉🏾👉🏽👉🏼👇🏻👇🏻👇🏻👈🏼👈🏽👈🏾👈🏿 squares from Twitter!
 
 # License
 [MIT](LICENSE)
