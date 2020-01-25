@@ -37,7 +37,7 @@ let endRows = [
 ];
 
 function response(text) {
-    let numColumnsNeeded = parseInt(text.length / 2);
+    let numColumnsNeeded = parseInt(text.length / 1.65);
     let rows = initialRows.slice();
     for (let i = 0; i < rows.length; i++) {
         // Add middle
