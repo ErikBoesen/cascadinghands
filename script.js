@@ -56,8 +56,13 @@ function response(text) {
 
 let input = document.getElementById('input'),
     output = document.getElementById('output');
-function setOutput(e) {
+function setOutput(text) {
     // InnerHTML used intentionally here, because italics are sometimes used.
-    output.innerHTML = response(e.target.value);
+    output.innerHTML = response(text);
 }
-input.oninput = setOutput;
+input.oninput = function(e) {
+    setOutput(e.target.value);
+}
+setOutput(input.value);
+
+let copy = document.getElementById('copy');
