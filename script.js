@@ -64,5 +64,3 @@ input.oninput = function(e) {
     setOutput(e.target.value);
 }
 setOutput(input.value);
-
-let copy = document.getElementById('copy');
