@@ -18,8 +18,7 @@ body {
     align-items: center;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(to bottom right, #194979, #00356b);
-    color: white;
+    color: black;
     padding: 20px;
 }
 h1 {

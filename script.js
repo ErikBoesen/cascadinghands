@@ -37,8 +37,8 @@ let endRows = [
 ];
 
 function response(text) {
-    let numColumnsNeeded = parseInt(text.length / 1);
-    let rows = initialRows;
+    let numColumnsNeeded = parseInt(text.length / 2);
+    let rows = initialRows.slice();
     for (let i = 0; i < rows.length; i++) {
         // Add middle
         if (i == 5) {
@@ -51,6 +51,7 @@ function response(text) {
         // Add ends to rows
         rows[i] += endRows[i];
     }
+    return rows.join('\n');
 }
 
 let input = document.getElementById('input'),
@@ -59,4 +60,4 @@ function setOutput(e) {
     // InnerHTML used intentionally here, because italics are sometimes used.
     output.innerHTML = response(e.target.value);
 }
-input.onchange = setOutput;
+input.oninput = setOutput;
