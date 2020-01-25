@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body { height: 100%; }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to bottom right, #194979, #00356b);
+    color: white;
+    padding: 20px;
+}
+h1 {
+}
+hr {
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    height: 1px;
+    width: 20px;
+}
+p {
+    margin-top: 20px;
+    max-width: 4in;
+    line-height: 1.5;
+}
