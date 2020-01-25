@@ -22,13 +22,7 @@ body {
     padding: 20px;
 }
 h1 {
-}
-hr {
-    margin-top: 20px;
-    border: none;
-    background-color: white;
-    height: 1px;
-    width: 20px;
+    margin-bottom: 20px;
 }
 p {
     margin-top: 20px;
