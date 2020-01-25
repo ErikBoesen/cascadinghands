@@ -24,6 +24,12 @@ body {
 h1 {
     margin-bottom: 20px;
 }
+#input {
+    margin-bottom: 20px;
+}
+pre {
+    font-family: inherit;
+}
 p {
     margin-top: 20px;
     max-width: 4in;
